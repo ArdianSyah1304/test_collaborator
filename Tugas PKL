@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <title>Biodata Mahasiswa</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f2f5;
+            padding: 20px;
+        }
+        .biodata-container {
+            background-color: #ffffff;
+            padding: 20px;
+            width: 400px;
+            margin: auto;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+            border-radius: 10px;
+        }
+        h2 {
+            text-align: center;
+            color: #333;
+        }
+        table {
+            width: 100%;
+        }
+        td {
+            padding: 8px;
+            vertical-align: top;
+        }
+        td.label {
+            font-weight: bold;
+            width: 35%;
+        }
+    </style>
+</head>
+<body>
+    <div class="biodata-container">
+        <h2>Biodata Mahasiswa</h2>
+        <table>
+            <tr>
+                <td class="label">NIM</td>
+                <td>: SI20230004</td>
+            </tr>
+            <tr>
+                <td class="label">Nama</td>
+                <td>: Ardiansyah</td>
+            </tr>
+            <tr>
+                <td class="label">Prodi</td>
+                <td>: Sistem Informasi</td>
+            </tr>
+            <tr>
+                <td class="label">Program Studi</td>
+                <td>: S1 Sistem Informasi</td>
+            </tr>
+            <tr>
+                <td class="label">Alamat</td>
+                <td>: Repok Repaok Desa Selebung Kec. Janapria</td>
+            </tr>
+            <tr>
+                <td class="label">Hobi</td>
+                <td>: Membaca, Coding, </td>
+            </tr>
+            <tr>
+                <td class="label">Cita-cita</td>
+                <td>: Menjadi Software Engineer</td>
+            </tr>
+        </table>
+    </div>
+</body>
+</html>
